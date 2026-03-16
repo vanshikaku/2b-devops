@@ -50,18 +50,18 @@ int pop() {
     }
 }
 
-// Function to display the elements in the stack
-// void display() {
-//     int i;
-//     if (isEmpty()) {
-//         printf("Stack is empty.\n");
-//         return;
-//     }
-//     printf("Stack elements:\n");
-//     for (i = top; i >= 0; i--) {
-//         printf("%d\n", stack_arr[i]);
-//     }
-// }
+ Function to display the elements in the stack
+ void display() {
+     int i;
+     if (isEmpty()) {
+         printf("Stack is empty.\n");
+         return;
+     }
+     printf("Stack elements:\n");
+     for (i = top; i >= 0; i--) {
+         printf("%d\n", stack_arr[i]);
+    }
+ }
 
 int main() {
     // Demonstrate stack operations
@@ -77,7 +77,7 @@ int main() {
     printf("Popped element: %d\n", pop());
     printf("Popped element: %d\n", pop());
 
-    // display();
+    display();
 
     return 0;
 }
